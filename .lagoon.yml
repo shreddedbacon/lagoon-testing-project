@@ -5,4 +5,4 @@ environments:
     routes:
       - nginx:
         # - "testing-bare.traefik.test6.amazee.io":
-        # - "testing-bare.fastlytraefik.test6.amazee.io":
+        - "testing-bare.fastlytraefik.test6.amazee.io":
