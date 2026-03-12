@@ -5,6 +5,6 @@ services:
       dockerfile: Dockerfile
     labels:
       lagoon.type: basic
-      lagoon.usecomposeports: true
+      lagoon.service.usecomposeports: true
     ports:
       - "8080:8080"
