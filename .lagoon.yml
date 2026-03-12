@@ -1,0 +1,8 @@
+docker-compose-yaml: docker-compose.yml
+
+environments:
+  main:
+    routes:
+      - nginx:
+        # - "testing-bare.traefik.test6.amazee.io":
+        # - "testing-bare.fastlytraefik.test6.amazee.io":
