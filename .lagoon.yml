@@ -21,6 +21,7 @@ x-trusted-ips: &trusted-ips |
   set_real_ip_from 199.232.0.0/16;
   set_real_ip_from 2a04:4e40::/32;
   set_real_ip_from 2a04:4e42::/32;
+  add_header X-Lagoon-Testing "testing" always;
 
 environments:
   main:
