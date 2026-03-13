@@ -31,3 +31,9 @@ environments:
         - "testing-realip.fastlytraefik.test6.amazee.io":
             annotations:
               nginx.ingress.kubernetes.io/server-snippet: *trusted-ips
+              nginx.ingress.kubernetes.io/cors-allow-origin: https://testing-realip-somethingelse.fastlytraefik.test6.amazee.io
+              nginx.ingress.kubernetes.io/enable-cors: 'true'
+              nginx.ingress.kubernetes.io/cors-allow-credentials: 'true'
+              nginx.ingress.kubernetes.io/cors-allow-headers: X-CustomHeader, Keep-Alive, User-Agent, Cache-Control, Content-Type, Authorization
+              nginx.ingress.kubernetes.io/cors-allow-methods: GET, PUT, POST, DELETE, PATCH, OPTIONS
+
